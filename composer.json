@@ -1,0 +1,69 @@
+{
+	"name": "programmer-jalanan/kerangka",
+	"description": "Yii 2 kerangka",
+	"keywords": ["yii2", "framework", "advanced", "project template"],
+	"homepage": "http://programmerjalanan.com/",
+	"type": "project",
+	"license": "BSD-3-Clause",
+	"support": {
+		"issues": "https://github.com/yiisoft/yii2/issues?state=open",
+		"forum": "http://www.yiiframework.com/forum/",
+		"wiki": "http://www.yiiframework.com/wiki/",
+		"irc": "irc://irc.freenode.net/yii",
+		"source": "https://github.com/yiisoft/yii2"
+	},
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": ">=2.0.6",
+		"yiisoft/yii2-bootstrap": "*",
+		"yiisoft/yii2-swiftmailer": "*",
+		"dektrium/yii2-user": "^0.9.5",
+		"schmunk42/yii2-giiant": "^0.5.0",
+		"dmstr/yii2-adminlte-asset": "^2.2",
+		"kartik-v/yii2-dynagrid": "^1.4",
+		"kartik-v/yii2-detail-view": "^1.7",
+		"kartik-v/yii2-builder": "^1.6",
+		"kartik-v/yii2-icons": "^1.4",
+		"kartik-v/yii2-label-inplace": "^1.2",
+		"kartik-v/yii2-dropdown-x": "^1.2",
+		"kartik-v/yii2-nav-x": "^1.2",
+		"kartik-v/yii2-password": "^1.5",
+		"kartik-v/yii2-editable": "^1.7",
+		"kartik-v/yii2-date-range": "^1.6",
+		"kartik-v/yii2-sortable-input": "^1.1",
+		"kartik-v/yii2-checkbox-x": "^1.0",
+		"kartik-v/yii2-tabs-x": "^1.2",
+		"kartik-v/yii2-export": "^1.2",
+		"kartik-v/yii2-tree-manager": "^1.0",
+		"kartik-v/yii2-context-menu": "^1.2",
+		"kartik-v/yii2-slider": "^1.3",
+		"kartik-v/yii2-field-range": "^1.3",
+		"kartik-v/yii2-datecontrol": "^1.9",
+		"kartik-v/yii2-money": "^1.2",
+		"kartik-v/yii2-helpers": "^1.3",
+		"kartik-v/yii2-sortable": "^1.2",
+		"kartik-v/yii2-widget-depdrop": "^1.0",
+		"box/spout": "^2.3",
+		"vova07/yii2-imperavi-widget": "^1.2",
+		"cornernote/yii2-returnurl": "^1.0",
+		"dmstr/yii2-helpers": "^0.2.0",
+		"insolita/yii2-adminlte-widgets": "^1.1",
+		"mdmsoft/yii2-admin": "~2.0"
+	},
+	"require-dev": {
+		"yiisoft/yii2-codeception": "*",
+		"yiisoft/yii2-debug": "*",
+		"yiisoft/yii2-gii": "*",
+		"yiisoft/yii2-faker": "*"
+	},
+	"config": {
+		"process-timeout": 1800
+	},
+	"extra": {
+		"asset-installer-paths": {
+			"npm-asset-library": "vendor/npm",
+			"bower-asset-library": "vendor/bower"
+		}
+	}
+}
